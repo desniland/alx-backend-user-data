@@ -21,7 +21,7 @@ def index() -> str:
 
 @app.route("/users", methods=["POST"], strict_slashes=False)
 def users() -> str:
-    """POST /users
+    """POST request /users
     Return:
         - The account creation payload.
     """
