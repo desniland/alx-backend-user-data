@@ -45,7 +45,7 @@ class DB:
         return new_user
 
     def find_user_by(self, **kwargs) -> User:
-        """Finds a user based on a set of filters.
+        """function Finds a user based on a set of filters.
         """
         fields, values = [], []
         for key, value in kwargs.items():
